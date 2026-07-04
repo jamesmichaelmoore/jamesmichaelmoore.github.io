@@ -410,7 +410,7 @@ Dr. Tetryon (c) 2026 James M. Moore
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            model: "DrTetryon",
+            model: "DrTetryon:latest",
             messages: convo.messages.map(m => ({
               role: m.role,
               content: m.content
